@@ -1,0 +1,31 @@
+.appStyle {
+  background-color: #eaeaea;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #d2d2d2;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0 20px 0;
+  border-bottom: 5px solid #d2d2d2;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px 0 20px 0;
+  border-bottom: 5px solid #d2d2d2;
+}
+
+.addGoal {
+  background-color: red;
+}
+.main {
+  background-color: #464646;
+  padding: 10em;
+  height: 100vh;
+}
+
+.completeBtn {
+  float: right;
+}

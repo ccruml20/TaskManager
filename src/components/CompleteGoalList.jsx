@@ -27,12 +27,13 @@ class CompleteGoalList extends Component {
           this.props.completeGoals.map((completeGoal, index) => {
             const { title, email } = completeGoal;
             return (
-              <div key={index}>
+              <div style={{ fontSize: '18px'}} key={index}>
                 <strong>{title}</strong> Completed by <em>{email}</em>
               </div>
             )
           })
         }
+        <hr />
         <button
           className="btn btn-primary"
           onClick={() => this.clearCompleted()}>

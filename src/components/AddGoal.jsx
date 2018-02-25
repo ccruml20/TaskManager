@@ -18,18 +18,18 @@ class AddGoal extends Component {
 
   render() {
     return (
-      <div className="form-inline">
+      <div className="row">
         <div className="form-group">
           <input
             type="text"
             placeholder="Add a goal"
-            className="form-control"
-            style={{marginRight: '5px'}}
+            className="form-control col-md-4"
+            // style={{marginRight: '5px', width: '50%'}}
             onChange={event => this.setState({title: event.target.value})}
           />
           <button
             type="button"
-            className="btn btn-success"
+            className="btn btn-success col-md-4"
             onClick={() => this.addGoal()}
             >
             Submit

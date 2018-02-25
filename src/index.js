@@ -6,6 +6,7 @@ import { Router, Route, browserHistory} from 'react-router';
 import { firebaseApp } from './firebase';
 import { logUser } from './actions';
 import reducer from './reducers';
+import './index.css';
 
 import App from './components/App.jsx';
 import SignIn from './components/SignIn.jsx';
